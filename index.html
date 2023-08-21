@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Assignment 3 for Ajay Jesa Odedara</title>
+  </head>
+
+  <style></style>
+
+  <body id="body">
+    
+    <div class="header">
+      <h1>Assignment 3</h1>
+      <h1>Ajay Odedara</h1>
+      <h1>Instructor: Amandeep Kaur</h1>
+      <hr />
+    </div>
+
+    <div id="user" class="userclass">
+      <button id="rock" onclick="userInput('rock')">
+        <img src="img/rock.jpg" alt="rock" />
+      </button>
+      <button id="paper" onclick="userInput('paper')">
+        <img src="img/paper.jpg" alt="paper" />
+      </button>
+      <button id="scissors" onclick="userInput('scissors')">
+        <img src="img/scissors.jpg" alt="scissors" />
+      </button>
+    </div>
+    <div id="user" class="userclass">
+
+      <p>ROCK</p>
+      <p>PAPER</p>
+      <p>SCISSORS</p>
+
+    </div>
+
+    <div id="div-span1" class="div-span">
+
+      <h3>User Choice: <span id="userChoice"></span></h3>
+      <h3>Computer Choise:<span id="computerChoice"></span></h3>
+      <h3>Result:<span id="winner"></span></h3>
+
+    </div>
+
+    <div id="div-span2" class="div-span">
+      <span id="finalResult"></span>
+    </div>
+    <br>
+
+<div class="button">
+  <input type="button" value="RESET" id="btn" onclick="reset()">
+</div>
+
+  </body>
+  <script src="script/script.js"></script>
+</html>

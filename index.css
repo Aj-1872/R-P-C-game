@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  div.header {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 5px black;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  button:active img {
+    transform: scale(0.9);
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .userclass {
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  button img {
+    width: 100px;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 0px 0px 20px;
+  }
+  
+  div.result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .div-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h3 {
+    display: inline;
+    margin: 20px;
+  }
+
+  #btn {
+    width: 150px;
+    height: 40px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #2980b9;
+  }
+  div.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
